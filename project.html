@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список задач</h1>
+        <input type="text" id="taskInput" placeholder="Введите задачу...">
+        <input type="datetime-local" id="taskTime" placeholder="Выберите время...">
+        <button id="addTaskBtn">Добавить задачу</button>
+        <div class="controls">
+            <button id="sortTasksByTime">Сортировать по времени</button>
+            <button id="sortTasksByStatus">Сортировать по статусу</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
